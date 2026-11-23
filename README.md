@@ -16,6 +16,10 @@ MBTI 人格設定 ────────────────────�
 - **AI 層**：組合運勢、人格與情境，透過 OpenAI API 呼叫 `gpt-6-luna`。
 - **產品層**：Gradio 介面，選擇 MBTI 與星座後，顯示場景、運勢與內心獨白。
 
+## 範例
+
+![範例圖片](img/example.jpg)
+
 ## 自行執行
 
 需要 Python 3.12，以及有額度的 [OpenAI API key](https://platform.openai.com/api-keys)。以下指令適用 macOS／Linux；Windows 請將 `.venv/bin/` 改為 `.venv\Scripts\`，並自行建立 `.env` 檔。
